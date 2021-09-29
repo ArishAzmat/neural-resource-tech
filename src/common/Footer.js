@@ -9,8 +9,6 @@ const Footer = () => {
 
                     <div class="row footer-p">
 
-
-
                         <div class="col-lg-8 mt-lg-0 mt-4 pr-lg-5">
                             <div class="d-sm-flex align-items-center top-footer-content mb-5">
                                 <a href="index-2.html">

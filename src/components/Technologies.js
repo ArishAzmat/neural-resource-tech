@@ -55,7 +55,6 @@ const Technologies = () => {
                                 <p>Wordpress</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
