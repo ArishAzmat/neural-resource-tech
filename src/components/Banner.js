@@ -1,6 +1,7 @@
 import React from 'react'
 import Technologies from './Technologies'
 import Testimonial from './Testimonial'
+import bannerImg from '../img/bann1.png';
 
 const Banner = () => {
     return (
@@ -25,7 +26,7 @@ const Banner = () => {
                                 </div>
                             </div>
                             <div class="col-md-6 mt-md-0 mt-4">
-                                <img class="img-fluid" src="wp-content/themes/setup/assets/images/bann1.png" alt=" " />
+                                <img class="img-fluid" src={bannerImg} alt="banner-dsc" />
                             </div>
                         </div>
                     </div>
