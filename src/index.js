@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './style/Custom.css';
+// import './style/Fontawesome-all.min.css';
+import './style/Style-liberty.css';
 
 ReactDOM.render(
   <React.StrictMode>
