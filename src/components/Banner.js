@@ -2,6 +2,8 @@ import React from 'react'
 import Technologies from './Technologies'
 import Testimonial from './Testimonial'
 import bannerImg from '../img/bann1.png';
+import contentImg from '../img/home-ab.png';
+import imgPhn from '../img/mobile.png';
 
 const Banner = () => {
     return (
@@ -40,7 +42,7 @@ const Banner = () => {
                 <div class="container py-lg-5 py-4 HomePageAbout">
                     <div class="row align-items-center">
                         <div class="col-md-6 content-photo order-md-first order-last">
-                            <img src="wp-content/themes/setup/assets/images/home-ab.png" class="img-fluid" alt="content-photo" />
+                            <img src={contentImg} class="img-fluid" alt="content-photo" />
                         </div>
                         <div class="col-md-6 content-left mb-md-0 mb-5 pl-lg-5 order-md-last order-first">
                             <h3 class="mb-3">
@@ -135,7 +137,7 @@ const Banner = () => {
                     <div class="container py-md-5 py-4 HomePagePromocode">
                         <div class="row aap-4-section">
                             <div class="col-lg-6 app4-right-image">
-                                <img src="wp-content/themes/setup/assets/images/mobile.png" class="img-fluid" alt="App Device" />
+                                <img src={imgPhn} class="img-fluid" alt="App Device" />
                             </div>
                             <div class="col-lg-6 app4-left-text pl-lg-0 mb-lg-0 mb-5">
                                 <h6>We are best in developing Mobile Applications </h6>
@@ -157,4 +159,4 @@ const Banner = () => {
     )
 }
 
-export default Banner
+export default Banner;

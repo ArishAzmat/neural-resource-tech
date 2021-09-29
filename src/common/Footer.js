@@ -1,4 +1,5 @@
 import React from "react";
+import footerLogo from '../images/NeuralResource.png';
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
                 <a href="index-2.html">
                   {/* <!-- <i
                                     className="fab fa-accusoft icon-color mr-1"></i>N<span className="icon-color" style="font-weight:700;">R</span><span style="font-weight:500;">T</span> --> */}
-                  <img src="/custom/NeuralResource.png" width="30%" />
+                  <img src={footerLogo} width="33%" />
                 </a>
 
                 <p className="top-p ml-sm-4 pl-sm-4 mt-sm-0 mt-2">
