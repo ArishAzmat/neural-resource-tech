@@ -4,11 +4,12 @@ import 'jquery';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './assets/style/Custom.css';
-import './assets/style/Fontawesome-all.min.css';
+// import './assets/style/Fontawesome-all.min.css';
 import './assets/style/Style-liberty.css';
 import './assets/js/counter';
 import './assets/js/demobar-script';
 import './assets/js/navigation8a54';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(
