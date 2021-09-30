@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from '../images/NeuralResource.png';
+import footerLogo from '../assets/img/NeuralResource.png';
 
 const Footer = () => {
   return (
