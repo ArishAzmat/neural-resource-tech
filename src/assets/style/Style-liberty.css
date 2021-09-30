@@ -10996,7 +10996,7 @@ a.text-dark:focus {
   --header-border-color: rgb(255 255 255 / 39%);
   --serach-shadow: rgb(0 0 0 / 5%);
   --text-color: #fff;
-  --clients-bgimg: url(../images/bg2.png) no-repeat bottom;
+  --clients-bgimg: url(../img/bg2.png) no-repeat bottom;
 }
 
 [data-theme="dark"] {
@@ -11018,7 +11018,7 @@ a.text-dark:focus {
   --header-border-color: transparent;
   --serach-shadow: rgb(6 8 8);
   --text-color: #333;
-  --clients-bgimg: url(../images/bg2-dark.png) no-repeat bottom;
+  --clients-bgimg: url(../img/bg2-dark.png) no-repeat bottom;
 }
 
 .noscroll {
@@ -12336,7 +12336,7 @@ h3.title-main {
 .w3l-banner .banner-image {
   position: absolute;
   overflow: hidden;
-  background-image: url(../images/banner.png);
+  background-image: url(../img/banner.png);
   background-size: cover;
   background-position: center;
   top: 0;
@@ -13335,7 +13335,7 @@ div#owl-demo2 .owl-dots {
 
 /* promocode section */
 .w3l-promocode .promo-block {
-  background: url(../images/bg1.png) no-repeat bottom;
+  background: url(../img/bg1.png) no-repeat bottom;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
