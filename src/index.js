@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'jquery';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './style/Custom.css';
-// import './style/Fontawesome-all.min.css';
-import './style/Style-liberty.css';
+import './assets/style/Custom.css';
+import './assets/style/Fontawesome-all.min.css';
+import './assets/style/Style-liberty.css';
+import './assets/js/counter';
+import './assets/js/demobar-script';
+import './assets/js/navigation8a54';
+
 
 ReactDOM.render(
   <React.StrictMode>
