@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from '../images/NeuralResource.png';
-// import '../style/'
 
+// import React from 'react'
 
-
-const Header = () => {
+ function Services() {
     return (
-        <header id="site-header" className="main-header fixed-top">
+        <div>
+             <header id="site-header" className="main-header fixed-top">
             <div className="container HeaderLogoEd">
                 <nav className="navbar navbar-expand-lg stroke px-0">
 
@@ -77,7 +76,7 @@ const Header = () => {
                 </nav>
             </div>
         </header>
+        </div>
     )
 }
-
-export default Header;
+export default Services;

@@ -4,6 +4,8 @@ import Testimonial from './Testimonial'
 import bannerImg from '../img/bann1.png';
 import contentImg from '../img/home-ab.png';
 import imgPhn from '../img/mobile.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBusinessTime,faLaptop,faClipboard,faClipboardCheck} from '@fortawesome/free-solid-svg-icons';
 
 const Banner = () => {
     return (
@@ -77,7 +79,7 @@ const Banner = () => {
                             <div class="col-lg-3 col-md-6">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span class="fas fa-business-time icon-color" aria-hidden="true"></span>
+                                        <span><FontAwesomeIcon icon={faBusinessTime}/></span>
                                     </div>
                                     <h5><a href="services-page/index.html">1. IT Development</a>
                                     </h5>
@@ -90,7 +92,7 @@ const Banner = () => {
                             <div class="col-lg-3 col-md-6 mt-md-0 mt-2">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span class="fas fa-laptop-code icon-color" aria-hidden="true"></span>
+                                        <span><FontAwesomeIcon icon = {faLaptop}></FontAwesomeIcon></span>
                                     </div>
                                     <h5><a href="services-page/index.html">2. IT Staffing</a>
                                     </h5>
@@ -102,7 +104,7 @@ const Banner = () => {
                             <div class="col-lg-3 col-md-6 mt-lg-0 mt-2">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span class="fas fa-clipboard-check icon-color" aria-hidden="true"></span>
+                                        <span><FontAwesomeIcon icon = {faClipboard}></FontAwesomeIcon></span>
                                     </div>
                                     <h5><a href="services-page/index.html">3. Permanent Hiring</a>
                                     </h5>
@@ -113,7 +115,7 @@ const Banner = () => {
                             <div class="col-lg-3 col-md-6 mt-lg-0 mt-2">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span class="fas fa-clipboard-check icon-color" aria-hidden="true"></span>
+                                        <span><FontAwesomeIcon icon = {faClipboardCheck}></FontAwesomeIcon></span>
                                     </div>
                                     <h5><a href="services-page/index.html">4. Training Program</a>
                                     </h5>
