@@ -7,14 +7,14 @@ import logo from '../assets/img/NeuralResource.png';
 const Header = () => {
     return (
         <header id="site-header" className="main-header fixed-top">
-            <div className="container HeaderLogoEd">
+            <div className="container HeaderLogoEd" >
                 <nav className="navbar navbar-expand-lg stroke px-0">
 
                     <h1>
                         <a className="navbar-brand" href="index.html">
-                            <img src={logo} width="25%"/>
+                            <img src={logo} width="25%" />
                         </a>
-                        
+
                     </h1>
 
                     <button className="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
@@ -36,10 +36,7 @@ const Header = () => {
                             <li id="menu-item-21"
                                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-21 nav-item"><a
                                     href="services/services.html" className="nav-link">Services</a></li>
-                            {/* <!-- <li id="menu-item-27" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27 nav-item dropdown"><a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" id="navbar-dropdown-menu-link-27" aria-haspopup="true" aria-expanded="false">Pages</a>
-<div  className="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-27">
-<a href="blog-posts/index.html" className="dropdown-item" id="menu-item-9">Blog Posts</a><a href="404-page/index.html" className="dropdown-item" id="menu-item-32">404 Page</a><a href="elements-page/index.html" className="dropdown-item" id="menu-item-36">Elements Page</a><a href="single-landing-page/index.html" className="dropdown-item" id="menu-item-40">Landing Page</a></div>
-</li> --> */}
+
                             <li id="menu-item-28"
                                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28 nav-item"><a
                                     href="services/contact.html" className="nav-link">Contact</a></li>
