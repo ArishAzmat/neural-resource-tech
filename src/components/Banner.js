@@ -1,9 +1,17 @@
 import React from 'react'
 import Technologies from './Technologies'
 import Testimonial from './Testimonial'
+<<<<<<< HEAD
+import bannerImg from '../img/bann1.png';
+import contentImg from '../img/home-ab.png';
+import imgPhn from '../img/mobile.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBusinessTime,faLaptop,faClipboard,faClipboardCheck} from '@fortawesome/free-solid-svg-icons';
+=======
 import bannerImg from '../assets/img/bann1.png';
 import contentImg from '../assets/img/home-ab.png';
 import imgPhn from '../assets/img/mobile.png';
+>>>>>>> 3f856fe742af4a8acf37a3896dfbb65691a86b62
 
 const Banner = () => {
     return (
@@ -74,10 +82,17 @@ const Banner = () => {
 
                         <div className="row features4-grids justify-content-center">
 
+<<<<<<< HEAD
+                            <div class="col-lg-3 col-md-6">
+                                <div class="features4-grid">
+                                    <div class="feature-images">
+                                        <span><FontAwesomeIcon icon={faBusinessTime}/></span>
+=======
                             <div className="col-lg-3 col-md-6">
                                 <div className="features4-grid">
                                     <div className="feature-images">
                                         <span className="fas fa-business-time icon-color" aria-hidden="true"></span>
+>>>>>>> 3f856fe742af4a8acf37a3896dfbb65691a86b62
                                     </div>
                                     <h5><a href="services-page/index.html">1. IT Development</a>
                                     </h5>
@@ -87,10 +102,17 @@ const Banner = () => {
                                 </div>
                             </div>
 
+<<<<<<< HEAD
+                            <div class="col-lg-3 col-md-6 mt-md-0 mt-2">
+                                <div class="features4-grid">
+                                    <div class="feature-images">
+                                        <span><FontAwesomeIcon icon = {faLaptop}></FontAwesomeIcon></span>
+=======
                             <div className="col-lg-3 col-md-6 mt-md-0 mt-2">
                                 <div className="features4-grid">
                                     <div className="feature-images">
                                         <span className="fas fa-laptop-code icon-color" aria-hidden="true"></span>
+>>>>>>> 3f856fe742af4a8acf37a3896dfbb65691a86b62
                                     </div>
                                     <h5><a href="services-page/index.html">2. IT Staffing</a>
                                     </h5>
@@ -99,10 +121,17 @@ const Banner = () => {
                                 </div>
                             </div>
 
+<<<<<<< HEAD
+                            <div class="col-lg-3 col-md-6 mt-lg-0 mt-2">
+                                <div class="features4-grid">
+                                    <div class="feature-images">
+                                        <span><FontAwesomeIcon icon = {faClipboard}></FontAwesomeIcon></span>
+=======
                             <div className="col-lg-3 col-md-6 mt-lg-0 mt-2">
                                 <div className="features4-grid">
                                     <div className="feature-images">
                                         <span className="fas fa-clipboard-check icon-color" aria-hidden="true"></span>
+>>>>>>> 3f856fe742af4a8acf37a3896dfbb65691a86b62
                                     </div>
                                     <h5><a href="services-page/index.html">3. Permanent Hiring</a>
                                     </h5>
@@ -110,10 +139,17 @@ const Banner = () => {
                                         simply looking for information on predicted compensation..</p>
                                 </div>
                             </div>
+<<<<<<< HEAD
+                            <div class="col-lg-3 col-md-6 mt-lg-0 mt-2">
+                                <div class="features4-grid">
+                                    <div class="feature-images">
+                                        <span><FontAwesomeIcon icon = {faClipboardCheck}></FontAwesomeIcon></span>
+=======
                             <div className="col-lg-3 col-md-6 mt-lg-0 mt-2">
                                 <div className="features4-grid">
                                     <div className="feature-images">
                                         <span className="fas fa-clipboard-check icon-color" aria-hidden="true"></span>
+>>>>>>> 3f856fe742af4a8acf37a3896dfbb65691a86b62
                                     </div>
                                     <h5><a href="services-page/index.html">4. Training Program</a>
                                     </h5>
