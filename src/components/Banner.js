@@ -4,6 +4,8 @@ import Testimonial from './Testimonial'
 import bannerImg from '../assets/img/bann1.png';
 import contentImg from '../assets/img/home-ab.png';
 import imgPhn from '../assets/img/mobile.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBusinessTime, faLaptop, faClipboard, faClipboardCheck } from '@fortawesome/free-solid-svg-icons';
 
 const Banner = () => {
     return (
