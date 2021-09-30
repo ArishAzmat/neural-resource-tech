@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAndroid, faJs, faLaravel, faPhp, faReact, faWordpress } from '@fortawesome/free-brands-svg-icons';
+import { faAppleAlt, faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 const Technologies = () => {
     return (
@@ -16,42 +19,46 @@ const Technologies = () => {
 
 
                             <div class="col-sm-3 col-3 icon-text-style">
-                                <i class="fab fa-android icon-color"></i>
-
-
+                                <FontAwesomeIcon icon={faAndroid} size='3x' />
+                                {/* <i class="fab fa-android icon-color"></i> */}
                                 <p>Android</p>
                             </div>
 
                             <div class="col-sm-3 col-3 icon-text-style">
-                                <i class="fab fa-apple icon-color"></i>
+                                <FontAwesomeIcon icon={faAppleAlt} size='3x' />
+                                {/* <i class="fab fa-apple icon-color"></i> */}
                                 <p>iOS</p>
                             </div>
 
                             <div class="col-sm-3 col-3 icon-text-style  border-right-0">
-                                <i class="fab fa-react icon-color"></i>
+                                <FontAwesomeIcon icon={faReact} size='3x' />
                                 <p>React JS </p>
                             </div>
 
                             <div class="col-sm-3 col-3 icon-text-style icon-text-style-2">
-                                <i class="fab fa-laravel icon-color"></i>
+                                <FontAwesomeIcon icon={faLaravel} size='3x' />
                                 <p>Laravel</p>
                             </div>
 
                             <div class="col-sm-3 col-3 icon-text-style icon-text-style-2">
-                                <i class="fab fa-php icon-color"></i>
+                                <FontAwesomeIcon icon={faPhp} size='3x' />
+                                {/* <i class="fab fa-php icon-color"></i> */}
                                 <p>PHP</p>
                             </div>
 
                             <div class="col-sm-3 col-3 icon-text-style icon-text-style-2 border-right-0">
-                                <i class="fas fa-database icon-color"></i>
+                                <FontAwesomeIcon icon={faDatabase} size='3x' />
+                                {/* <i class="fas fa-database icon-color"></i> */}
                                 <p>SQL</p>
                             </div>
                             <div class="col-sm-3 col-3 icon-text-style icon-text-style-2 border-right-0">
-                                <i class="fab fa-js icon-color"></i>
+                                <FontAwesomeIcon icon={faJs} size='3x' />
+                                {/* <i class="fab fa-js icon-color"></i> */}
                                 <p>Javascript</p>
                             </div>
                             <div class="col-sm-3 col-3 icon-text-style icon-text-style-2 border-right-0">
-                                <i class="fab fa-wordpress icon-color"></i>
+                                <FontAwesomeIcon icon={faWordpress} size='3x' />
+                                {/* <i class="fab fa-wordpress icon-color"></i> */}
                                 <p>Wordpress</p>
                             </div>
                         </div>
