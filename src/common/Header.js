@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/img/NeuralResource.png';
+import Services from '../pages/services';
 // import '../style/'
 
 
