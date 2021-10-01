@@ -4,7 +4,7 @@ import 'jquery';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './assets/style/Custom.css';
-// import './assets/style/Fontawesome-all.min.css';
+import './assets/style/Fontawesome-all.min.css';
 import './assets/style/Style-liberty.css';
 import './assets/js/counter';
 import './assets/js/demobar-script';
