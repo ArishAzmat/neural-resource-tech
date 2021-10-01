@@ -4,7 +4,6 @@ import Header from "./common/Header";
 import Banner from "./components/Banner";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from "./pages/About";
-<<<<<<< HEAD
 import $ from 'jquery';
 import ContactUs from "./pages/ContactUs";
 
@@ -19,9 +18,6 @@ $(window).on("scroll", function () {
   }
 });
 
-=======
-import  Services from "./pages/services";
->>>>>>> 9deb588661b5ea8afa84752535ff3e466a1ea82d
 
 function App() {
   return (
