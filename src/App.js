@@ -2,9 +2,9 @@ import "./App.css";
 import Footer from "./common/Footer";
 import Header from "./common/Header";
 import Banner from "./components/Banner";
-import Services from "./pages/services";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from "./pages/About";
+import  Services from "./pages/services";
 
 function App() {
   return (
