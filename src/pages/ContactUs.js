@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const Routes = () => {
+const ContactUs = () => {
     return (
         <div>
 
         </div>
     )
 }
+
+export default ContactUs;

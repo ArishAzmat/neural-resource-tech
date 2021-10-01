@@ -4600,7 +4600,9 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand {
-  display: inline-block;
+  display: grid;
+  justify-content: flex-start;
+  
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
@@ -12792,7 +12794,7 @@ h3.title-big {
 }
 
 .owl-carousel {
-  display: none;
+  /* display: none; */
   width: 100%;
 }
 
@@ -13646,6 +13648,7 @@ p.top-p {
 
 /* inner-banner */
 .inner-banner {
+  background-image: url(../img/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;

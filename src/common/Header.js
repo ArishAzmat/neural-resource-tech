@@ -5,13 +5,14 @@ import Services from "../pages/services";
 // import '../style/'
 
 const Header = () => {
+
   return (
     <header id="site-header" className="main-header fixed-top">
       <div className="container HeaderLogoEd">
         <nav className="navbar navbar-expand-lg stroke px-0">
           <h1>
             <a className="navbar-brand" href="index.html">
-              <img src={logo} width="25%" />
+              <img src={logo} width="30%" />
             </a>
           </h1>
 
@@ -31,38 +32,42 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul id="primary-menu" className="navbar-nav ml-lg-auto">
               <Link to="/">
-                <li
-                  id="menu-item-10"
+                <li id="menu-item-10"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-10 nav-item active"
-                >
-                  Home
+                ><a className="nav-link"> Home</a>
                 </li>
               </Link>
-              <li
-                id="menu-item-17"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17 nav-item"
-              >
-                <a href="services/about_us" className="nav-link">
-                  About
-                </a>
-              </li>
-              <li
-                id="menu-item-21"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-21 nav-item"
-              >
-                <a href="services/services.html" className="nav-link">
-                  Services
-                </a>
-              </li>
+              <Link to="/aboutus">
+                <li
+                  id="menu-item-17"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17 nav-item"
+                >
+                  <a href="services/about_us" className="nav-link">
+                    About
+                  </a>
+                </li>
+              </Link>
+              <Link to='/serviecs'>
+                <li
+                  id="menu-item-21"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-21 nav-item"
+                >
+                  <a href="services/services.html" className="nav-link">
+                    Services
+                  </a>
+                </li>
+              </Link>
+              <Link to='/contactus'>
 
-              <li
-                id="menu-item-28"
-                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28 nav-item"
-              >
-                <a href="services/contact.html" className="nav-link">
-                  Contact
-                </a>
-              </li>
+                <li
+                  id="menu-item-28"
+                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28 nav-item"
+                >
+                  <a href="services/contact.html" className="nav-link">
+                    Contact
+                  </a>
+                </li>
+              </Link>
             </ul>
             <ul className="navbar-nav">
               {/* <!-- search right --> */}
