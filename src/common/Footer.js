@@ -1,9 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
 import footerLogo from '../assets/img/NeuralResource.png';
-=======
-import footerLogo from '../img/NeuralResource.png';
->>>>>>> 62ed43d4fa3d0d4ff62e013594d20f1ec614b6f0
 
 const Footer = () => {
   return (
