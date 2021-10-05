@@ -10,6 +10,7 @@ import './assets/js/counter';
 import './assets/js/demobar-script';
 import './assets/js/navigation8a54';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 // import './assets/style/style8a54.css';
 
 
