@@ -1,3 +1,5 @@
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 const Testimonial = () => {
@@ -14,7 +16,7 @@ const Testimonial = () => {
                     <div class="item">
                         <div class="testimonial-content">
                             <div class="testimonial">
-                                <span class="fa fa-quote-left"></span>
+                                <FontAwesomeIcon icon={faQuoteLeft} />
                                 <p>Neural resource provides best staff solution for bussiness.</p>
                             </div>
                             <div class="bottom-info mt-4">
@@ -31,7 +33,7 @@ const Testimonial = () => {
                     <div class="item">
                         <div class="testimonial-content">
                             <div class="testimonial">
-                                <span class="fa fa-quote-left"></span>
+                                <FontAwesomeIcon icon={faQuoteLeft} />
                                 <p>This company made by work easier with its services, great experience.</p>
                             </div>
                             <div class="bottom-info mt-4">
@@ -48,7 +50,8 @@ const Testimonial = () => {
                     <div class="item">
                         <div class="testimonial-content">
                             <div class="testimonial">
-                                <span class="fa fa-quote-left"></span>
+                                <FontAwesomeIcon icon={faQuoteLeft} />
+                                {/*<FontAwesomeIcon icon={faQuoteLeft}/> */}
                                 <p>Made an iOS app just as I wanted. thank you Neural resource.</p>
                             </div>
                             <div class="bottom-info mt-4">
@@ -63,7 +66,7 @@ const Testimonial = () => {
                     <div class="item">
                         <div class="testimonial-content">
                             <div class="testimonial">
-                                <span class="fa fa-quote-left"></span>
+                                <FontAwesomeIcon icon={faQuoteLeft} />
                                 <p>The envirnment of this office is the best i've experienced. they do their work perfectly and even they
                                     enjoy what they are doin' </p>
                             </div>
@@ -80,7 +83,7 @@ const Testimonial = () => {
                     <div class="item">
                         <div class="testimonial-content">
                             <div class="testimonial">
-                                <span class="fa fa-quote-left"></span>
+                                <FontAwesomeIcon icon={faQuoteLeft} />
                                 <p>I had training in this company and now i'am there where I wanted to be. Actually I got job in MNC. All
                                     thanks to Neural resource.</p>
                             </div>
@@ -96,7 +99,7 @@ const Testimonial = () => {
                     <div class="item">
                         <div class="testimonial-content">
                             <div class="testimonial">
-                                <span class="fa fa-quote-left"></span>
+                                <FontAwesomeIcon icon={faQuoteLeft} />
 
                                 <p>Though it is new oranization but they are best in place. </p>
                             </div>

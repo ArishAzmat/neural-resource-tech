@@ -3,6 +3,8 @@ import '../assets/style/ContactUs.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faHeadphones, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelopeOpen } from '@fortawesome/free-regular-svg-icons';
+import { Link } from 'react-router-dom';
+
 
 const ContactUs = () => {
     return (
@@ -50,8 +52,7 @@ const ContactUs = () => {
 
                                     <div className="d-flex contact-grid">
                                         <div className="cont-left text-center mr-3">
-                                            <FontAwesomeIcon icon={faGlobe} size='2x' />
-                                            {/* <span className="fa fa-globe icon-color"></span> */}
+                                            <FontAwesomeIcon icon={faGlobe} size='2x' className="fa-icon" />
                                         </div>
                                         <div className="cont-right">
                                             <h6>Company Address</h6>
@@ -61,8 +62,7 @@ const ContactUs = () => {
 
                                     <div className="d-flex contact-grid mt-4 pt-lg-2">
                                         <div className="cont-left text-center mr-3">
-                                            <FontAwesomeIcon icon={faPhone} size='2x' />
-                                            {/* <span className="fa fa-phone icon-color"></span> */}
+                                            <FontAwesomeIcon icon={faPhone} size='2x' className="fa-icon" />
                                         </div>
                                         <div className="cont-right">
                                             <h6>Call Us</h6>
@@ -72,8 +72,7 @@ const ContactUs = () => {
 
                                     <div className="d-flex contact-grid mt-4 pt-lg-2">
                                         <div className="cont-left text-center mr-3">
-                                            <FontAwesomeIcon icon={faEnvelopeOpen} size='2x' />
-                                            {/* <span className="fa fa-envelope-open icon-color"></span> */}
+                                            <FontAwesomeIcon icon={faEnvelopeOpen} size='2x' className="fa-icon" />
                                         </div>
                                         <div className="cont-right">
                                             <h6>Email Us</h6>
@@ -83,8 +82,7 @@ const ContactUs = () => {
 
                                     <div className="d-flex contact-grid mt-4 pt-lg-2">
                                         <div className="cont-left text-center mr-3">
-                                            <FontAwesomeIcon icon={faHeadphones} size='2x' />
-                                            {/* <span className="fa fa-headphones icon-color"></span> */}
+                                            <FontAwesomeIcon className='color-icon' icon={faHeadphones} size='2x' className="fa-icon" />
                                         </div>
                                         <div className="cont-right">
                                             <h6>Customer Support</h6>
@@ -119,7 +117,7 @@ const ContactUs = () => {
                                             required=""></textarea>
 
                                     </div>
-                                    <button className="btn button-style">Send Message</button>
+                                    <button id="send-button" className="btn">Send Message</button>
                                 </form>
                             </div>
 
@@ -138,7 +136,7 @@ const ContactUs = () => {
             <div className="map-iframe ContactPageMap text-center">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2spl!4v1562654563739!5m2!1sen!2spl"
-                    width="100%" height="400" frameborder="0" allowfullscreen=""></iframe>
+                    width="100%" height="500" frameborder="0" allowfullscreen=""></iframe>
             </div>
 
             <section>

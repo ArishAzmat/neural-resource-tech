@@ -1,3 +1,6 @@
+import { faFacebook, faGooglePlusG, faInstagram, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import footerLogo from '../assets/img/NeuralResource.png';
 
@@ -8,13 +11,8 @@ const Footer = () => {
         <div className="container SetupFooter">
           <div className="row footer-p">
             <div className="col-lg-8 mt-lg-0 mt-4 pr-lg-5">
-              <div className="d-sm-flex align-items-center top-footer-content mb-5">
-                <a href="index-2.html">
-                  {/* <!-- <i
-                                    className="fab fa-accusoft icon-color mr-1"></i>N<span className="icon-color" style="font-weight:700;">R</span><span style="font-weight:500;">T</span> --> */}
-                  <img src={footerLogo} width="33%" />
-                </a>
-
+              <div className="d-sm-flex  top-footer-content mb-5">
+                <img src={footerLogo} className='logo' width="33%" alt='' />
                 <p className="top-p ml-sm-4 pl-sm-4 mt-sm-0 mt-2">
                   If you want to grow your bussiness with our best employees or
                   if you want us to make website for you then you can contact us
@@ -27,22 +25,22 @@ const Footer = () => {
                     <h6 className="footer-links-title">Services</h6>
                     <ul>
                       <li>
-                        <a href="#"></a>IT outsource
+                        <a href="#">IT outsource</a>
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <a href="#"></a>Web development
+                        <a href="#">Web development</a>
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <a href="#"></a>iOS & android development
+                        <a href="#">iOS & android development</a>
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <a href="#"></a>Digital marketing
+                        <a href="#">Digital marketing</a>
                       </li>
                     </ul>
                   </div>
@@ -96,7 +94,8 @@ const Footer = () => {
                     required=""
                   />
                   <button className="button-style">
-                    <span className="fa fa-paper-plane" aria-hidden="true"></span>
+                    <FontAwesomeIcon icon={faPaperPlane} />
+                    {/* <span className="fa fa-paper-plane" aria-hidden="true"></span> */}
                   </button>
                 </form>
                 <p>
@@ -109,37 +108,33 @@ const Footer = () => {
                 <ul className="social">
                   <li>
                     <a href="#">
-                      <span className="fab fa-facebook-f" aria-hidden="true"></span>
+                      <FontAwesomeIcon icon={faFacebook} size='2x' className='social-icon' />
                     </a>
                   </li>
 
                   <li>
                     <a href="#">
-                      <span className="fab fa-twitter" aria-hidden="true"></span>
+                      <FontAwesomeIcon icon={faTwitter} size='2x' size='2x' className='social-icon' />
                     </a>
                   </li>
 
                   <li>
                     <a href="#">
-                      <span
-                        className="fab fa-google-plus-g"
-                        aria-hidden="true"
-                      ></span>
+                      <FontAwesomeIcon icon={faGooglePlusG} size='2x' className='social-icon' />
+
                     </a>
                   </li>
 
                   <li>
                     <a href="#">
-                      <span className="fab fa-instagram" aria-hidden="true"></span>
+                      <FontAwesomeIcon icon={faInstagram} size='2x' className='social-icon' />
                     </a>
                   </li>
 
                   <li>
                     <a href="#">
-                      <span
-                        className="fab fa-linkedin-in"
-                        aria-hidden="true"
-                      ></span>
+                      <FontAwesomeIcon icon={faLinkedinIn} size='2x' className='social-icon' />
+
                     </a>
                   </li>
                 </ul>

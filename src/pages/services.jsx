@@ -1,8 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBusinessTime, faLaptop, faClipboard, faClipboardCheck, faPhone, faList } from '@fortawesome/free-solid-svg-icons';
-import { faAndroid, faInstagram, faPinterest, faReact, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import serv from '../assets/img/service1.png';
+import { faBusinessTime, faLaptop, faList } from '@fortawesome/free-solid-svg-icons';
+import { faAndroid, faInstagram, faPinterest, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import service2 from '../assets/img/service2.png';
+import service1 from '../assets/img/service1.png';
 
 
 // import React from 'react'
@@ -12,11 +13,7 @@ const Services = () => {
     return (
         <>
             <div class="inner-banner">
-                {/* <style>
-            .inner-banner {
-                background-image: url(../wp-content/themes/setup/assets/images/banner.png);
-            } */}
-                {/* </style> */}
+
                 <section class="w3l-breadcrumb">
                     <div class="container ServicesPageBanner">
                         <h4 class="inner-text-title font-weight-bold mb-2">
@@ -91,7 +88,7 @@ const Services = () => {
                         </div>
 
                         <div class="col-lg-6 left-wthree-img mt-lg-0 mt-5">
-                            <img serv={serv} />
+                            <img src={service2} alt='' />
                         </div>
 
                     </div>
@@ -109,14 +106,14 @@ const Services = () => {
 
                     <div class="row mt-5 pt-5 ServicesPageCWP">
                         <div class="col-lg-6 left-wthree-img mt-lg-0 mt-5 order-lg-first order-last">
-                            <img src="../wp-content/themes/setup/assets/images/service1.png" alt=""
+                            <img src={service1} alt=""
                                 class="img-fluid radius-image" />
                         </div>
                         <div class="col-lg-6 about-right-faq align-self pl-lg-5 order-lg-last order-first">
                             <h3 class="title-big">
                                 We Provide Awesome Services For You </h3>
                             <p class="mt-3">Neural Resource provides best service for your bessiness. Either its development, Designing, Outsourcing, or Marketing. We are there for you. </p>
-                            <a class="btn button-style mt-lg-5 mt-4" href="#url">Learn More </a>
+                            <a id='send-button' class="btn button-style mt-lg-5 mt-4" href="#url">Learn More </a>
                         </div>
                     </div>
 
@@ -152,7 +149,7 @@ const Services = () => {
 
                         <div class="col-lg-4 col-md-6 grids-feature">
                             <div class="area-box">
-                                <span><FontAwesomeIcon icon={faLaptop} /></span>
+                                <span><FontAwesomeIcon icon={faLaptop} className='fa-icon' /></span>
                                 <h4><a href="#url" class="title-head">Dynamic & <br />Static website</a>
                                 </h4>
                                 <p>We make Dynamic and static website for your bussiness or product with all our new technology so you can always be ahead. </p>
@@ -162,7 +159,7 @@ const Services = () => {
 
                         <div class="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4">
                             <div class="area-box">
-                                <span><FontAwesomeIcon icon={faAndroid} /></span>
+                                <span><FontAwesomeIcon icon={faAndroid} className='fa-icon' /></span>
                                 <h4><a href="#url" class="title-head">iOS & Android application</a>
                                 </h4>
                                 <p>Our company make iOS and android application as well for you. because in this world an application in mobile is must.  </p>
@@ -172,7 +169,7 @@ const Services = () => {
 
                         <div class="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-4">
                             <div class="area-box">
-                                <span><FontAwesomeIcon icon={faInstagram} /></span>
+                                <span><FontAwesomeIcon icon={faInstagram} className='fa-icon' /></span>
                                 <h4><a href="#url" class="title-head">Digital Marketing</a></h4>
                                 <p>In order to grow in this digital fiels one should always know about digital marketting, our website market your website or product digitally in order to gether traffic for you.</p>
                                 {/* <!-- <a href="#url" class="more">Read More</a>  */}
@@ -181,7 +178,7 @@ const Services = () => {
 
                         <div class="col-lg-4 col-md-6 grids-feature mt-lg-5 mt-4">
                             <div class="area-box">
-                                <span><FontAwesomeIcon icon={faPinterest} /></span>
+                                <span><FontAwesomeIcon icon={faPinterest} className='fa-icon' /></span>
                                 <h4><a href="#url" class="title-head">Contratual staffing</a></h4>
                                 <p>For your bussiness we provide our best engineers who are best in their fields2, they have enough  skills and experience.</p>
                                 {/* <!-- <a href="#url" class="more">Read More </a> --> */}
@@ -190,7 +187,7 @@ const Services = () => {
 
                         <div class="col-lg-4 col-md-6 grids-feature mt-lg-5 mt-4">
                             <div class="area-box">
-                                <span><FontAwesomeIcon icon={faTwitter} /></span>
+                                <span><FontAwesomeIcon icon={faTwitter} className='fa-icon' /></span>
                                 <h4><a href="#url" class="title-head"> Client Support</a></h4>
                                 <p>As you become a member of our Neural Resource Technology, it is our responsibility to provide enough support to you and it is our responsibility to make you grow.</p>
                                 {/* <!-- <a href="#url" class="more">Read More </a> --> */}
@@ -199,7 +196,7 @@ const Services = () => {
 
                         <div class="col-lg-4 col-md-6 grids-feature mt-lg-5 mt-4">
                             <div class="area-box">
-                                <span><FontAwesomeIcon icon={faBusinessTime} /></span>
+                                <span><FontAwesomeIcon icon={faBusinessTime} className='fa-icon' /></span>
                                 <h4><a href="#url" class="title-head">Training Programme</a></h4>
                                 <p>And if you are the one who wants to learn new skill and want a suitable job for your future theen it is the best place to learn new technologies.</p>
                                 {/* <!-- <a href="#url" class="more">Read More </a> --> */}
@@ -236,7 +233,7 @@ const Services = () => {
                             <div class="col-lg-4 col-md-6">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span><FontAwesomeIcon icon={faBusinessTime} /></span>
+                                        <span><FontAwesomeIcon icon={faBusinessTime} className='fa-icon' /></span>
                                     </div>
                                     <h5><a href="index.html">1. Planning & Research</a>
                                     </h5>
@@ -248,7 +245,7 @@ const Services = () => {
                             <div class="col-lg-4 col-md-6 mt-md-0 mt-2">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span><FontAwesomeIcon icon={faLaptop} /></span>
+                                        <span><FontAwesomeIcon icon={faLaptop} className='fa-icon' /></span>
                                     </div>
                                     <h5><a href="index.html">2. Optimizing</a>
                                     </h5>
@@ -259,7 +256,7 @@ const Services = () => {
                             <div class="col-lg-4 col-md-6 mt-lg-0 mt-2">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span><FontAwesomeIcon icon={faList} /></span>
+                                        <span><FontAwesomeIcon icon={faList} className='fa-icon' /></span>
                                     </div>
                                     <h5><a href="index.html">3. Result</a>
                                     </h5>

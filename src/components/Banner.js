@@ -1,11 +1,11 @@
 import React from 'react'
 import Technologies from './Technologies'
-import Testimonial from './Testimonial'
+import Testimonial from './Testimonial';
 import bannerImg from '../assets/img/bann1.png';
 import contentImg from '../assets/img/home-ab.png';
 import imgPhn from '../assets/img/mobile.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBusinessTime,faLaptop,faClipboard,faClipboardCheck} from '@fortawesome/free-solid-svg-icons';
+import { faBusinessTime, faLaptop, faClipboard, faClipboardCheck } from '@fortawesome/free-solid-svg-icons';
 // import {  faLaptop, faClipboard, faClipboardCheck } from '@fortawesome/free-solid-svg-icons';
 
 const Banner = () => {
@@ -27,7 +27,7 @@ const Banner = () => {
                                     business or organization because your growth is our motto. We also make websites with the newest
                                     technologies and skilled IT experts.</p>
                                 <div className="mt-md-5 mt-4 mb-lg-0 mb-4">
-                                    <a className="btn button-style" href="services/about_us.html">Get Started</a>
+                                    <a className="btn button-style" href="services/about_us.html" id='send-button'>Get Started</a>
                                 </div>
                             </div>
                             <div className="col-md-6 mt-md-0 mt-4">
@@ -58,7 +58,7 @@ const Banner = () => {
                                 environments.We are a
                                 branch whose fruit is its staff and you are the one to taste it.
                                 Join neural resource for better future of your busssiness.</p>
-                            <a className="btn button-style mt-lg-5 mt-4" href="about-page/index.html">Learn More </a>
+                            <a className="btn button-style mt-lg-5 mt-4" href="about-page/index.html" id='send-button'>Learn More </a>
                         </div>
                     </div>
                 </div>
@@ -80,8 +80,8 @@ const Banner = () => {
                             <div class="col-lg-3 col-md-6">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span><FontAwesomeIcon icon={faBusinessTime}/></span>
-                                        {/* <span><FontAwesomeIcon icon={faBusinessTime} /></span> */}
+                                        <span><FontAwesomeIcon className="fa-icon" icon={faBusinessTime} /></span>
+                                        {/* <span><FontAwesomeIcon className="fa-icon" icon={faBusinessTime} /></span> */}
                                     </div>
                                     <h5><a href="services-page/index.html">1. IT Development</a>
                                     </h5>
@@ -94,8 +94,8 @@ const Banner = () => {
                             <div class="col-lg-3 col-md-6 mt-md-0 mt-2">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span><FontAwesomeIcon icon = {faLaptop}></FontAwesomeIcon></span>
-                                        {/* <span><FontAwesomeIcon icon={faLaptop}></FontAwesomeIcon></span> */}
+                                        <span><FontAwesomeIcon className="fa-icon" icon={faLaptop} /></span>
+                                        {/* <span><FontAwesomeIcon className="fa-icon" icon={faLaptopstyle={{color:'#23d997'}}}/></span> */}
                                     </div>
                                     <h5><a href="services-page/index.html">2. IT Staffing</a>
                                     </h5>
@@ -107,8 +107,8 @@ const Banner = () => {
                             <div class="col-lg-3 col-md-6 mt-lg-0 mt-2">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span><FontAwesomeIcon icon = {faClipboard}></FontAwesomeIcon></span>
-                                        {/* <span><FontAwesomeIcon icon={faClipboard}></FontAwesomeIcon></span> */}
+                                        <span><FontAwesomeIcon className="fa-icon" icon={faClipboard} /></span>
+                                        {/* <span><FontAwesomeIcon className="fa-icon" icon={faClipboardstyle={{color:'#23d997'}}}/></span> */}
                                     </div>
                                     <h5><a href="services-page/index.html">3. Permanent Hiring</a>
                                     </h5>
@@ -119,8 +119,8 @@ const Banner = () => {
                             <div class="col-lg-3 col-md-6 mt-lg-0 mt-2">
                                 <div class="features4-grid">
                                     <div class="feature-images">
-                                        <span><FontAwesomeIcon icon = {faClipboardCheck}></FontAwesomeIcon></span>
-                                        {/* <span><FontAwesomeIcon icon={faClipboardCheck}></FontAwesomeIcon></span> */}
+                                        <span><FontAwesomeIcon className="fa-icon" icon={faClipboardCheck} /></span>
+                                        {/* <span><FontAwesomeIcon className="fa-icon" icon={faClipboardCheckstyle={{color:'#23d997'}}}/></span> */}
                                     </div>
                                     <h5><a href="services-page/index.html">4. Training Program</a>
                                     </h5>

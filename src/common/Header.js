@@ -1,3 +1,5 @@
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/img/NeuralResource.png";
@@ -34,7 +36,7 @@ const Header = () => {
               <Link to="/">
                 <li id="menu-item-10"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-10 nav-item active"
-                ><a className="nav-link"> Home</a>
+                >Home
                 </li>
               </Link>
               <Link to="/aboutus">
@@ -42,9 +44,7 @@ const Header = () => {
                   id="menu-item-17"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17 nav-item"
                 >
-                  <a href="services/about_us" className="nav-link">
-                    About
-                  </a>
+                  About
                 </li>
               </Link>
               <Link to='/services'>
@@ -52,9 +52,7 @@ const Header = () => {
                   id="menu-item-21"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-21 nav-item"
                 >
-                  <a href="services/services.html" className="nav-link">
-                    Services
-                  </a>
+                  Services
                 </li>
               </Link>
               <Link to='/contactus'>
@@ -63,9 +61,7 @@ const Header = () => {
                   id="menu-item-28"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28 nav-item"
                 >
-                  <a href="services/contact.html" className="nav-link">
-                    Contact
-                  </a>
+                  Contact
                 </li>
               </Link>
             </ul>
@@ -86,7 +82,7 @@ const Header = () => {
                     className="search-popup"
                   />
                   <button type="submit" className="btn search-btn">
-                    <i className="fa fa-search" aria-hidden="true"></i>
+                    <FontAwesomeIcon icon={faSearch} />
                   </button>
                 </form>
               </div>

@@ -2,20 +2,20 @@ import React from 'react';
 import bg1 from '../assets/img/bg1.png';
 import about from '../assets/img/about.png';
 import image from '../assets/img/image.jpg';
-import banner from '../assets/img/banner.png'
 import team1 from '../img/team1.jpg';
 import team2 from '../img/team2.jpg';
 import team3 from '../img/team3.jpg';
-import testi1 from '../img/testi1.jpg';
-import testi2 from '../img/testi2.jpg';
-import testi3 from '../img/testi3.jpg';
+// import testi1 from '../img/testi1.jpg';
+// import testi2 from '../img/testi2.jpg';
+// import testi3 from '../img/testi3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 import { faBlog, faCogs, faLink, faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+import Testimonilas from '../components/carousel/Testimonials';
 
 const About = () => {
     return (
-        <div>
+        <div >
             {/* INNER BANNER */}
             <div className="inner-banner" >
 
@@ -46,14 +46,14 @@ const About = () => {
                             <p>Neural resource is a company with 5 years of great experience with it's client and we have
                                 resource with hands on experience they have.</p>
                             <ul>
-                                <li><FontAwesomeIcon icon={faCheckCircle} />
+                                <li><FontAwesomeIcon icon={faCheckCircle} className="fa-icon" />
                                     {/* <span className="fas fa-check-circle icon-color" aria-hidden="true"></span> */}
                                     We make dynamic and static websites. </li>
-                                <li><FontAwesomeIcon icon={faCheckCircle} />
+                                <li><FontAwesomeIcon icon={faCheckCircle} className="fa-icon" />
                                     Provide staff with hands on experience. </li>
-                                <li><FontAwesomeIcon icon={faCheckCircle} />
+                                <li><FontAwesomeIcon icon={faCheckCircle} className="fa-icon" />
                                     Make android and iOS application. </li>
-                                <li><FontAwesomeIcon icon={faCheckCircle} />
+                                <li><FontAwesomeIcon icon={faCheckCircle} className="fa-icon" />
                                     Work with great technology i.e React, PHP, Laravel etc. </li>
                             </ul>
                         </div>
@@ -192,7 +192,7 @@ const About = () => {
                             <div className="row content4-right-grids mb-lg-5 mb-5">
                                 <div className="col-2 content4-right-icon">
                                     <div className="content4-icon">
-                                        <FontAwesomeIcon icon={faBlog} />
+                                        <FontAwesomeIcon icon={faBlog} className="fa-icon" />
                                     </div>
                                 </div>
                                 <div className="col-10 content4-right-info">
@@ -206,7 +206,7 @@ const About = () => {
                             <div className="row content4-right-grids mb-lg-5 mb-5">
                                 <div className="col-2 content4-right-icon">
                                     <div className="content4-icon">
-                                        <FontAwesomeIcon icon={faCogs} />
+                                        <FontAwesomeIcon className="fa-icon" icon={faCogs} />
                                     </div>
                                 </div>
                                 <div className="col-10 content4-right-info">
@@ -220,7 +220,7 @@ const About = () => {
                             <div className="row content4-right-grids">
                                 <div className="col-2 content4-right-icon">
                                     <div className="content4-icon">
-                                        <FontAwesomeIcon icon={faLink} />
+                                        <FontAwesomeIcon icon={faLink} className="fa-icon" />
                                     </div>
                                 </div>
                                 <div className="col-10 content4-right-info">
@@ -244,13 +244,13 @@ const About = () => {
             <section>
             </section>
 
-            <section className="w3l-content-about py-5">
+            <section className=" w3l-content-about py-5">
                 <div className="container py-md-5 py-4 AboutPageCWP">
                     <img src={image} alt="" className="img-fluid radius-image-full" />
                     <div className="row mt-sm-5 mt-4">
                         <div className="col-lg-6 about-left-inner pr-lg-5">
-                            <h3 className="title-main-2 font-weight-bold">
-                                We create a new standard for businesses </h3>
+                            <h3 id='title-main-2' className="title-main-2 font-weight-bold">
+                                We create a new <br />standard for businesses </h3>
                         </div>
                     </div>
                 </div>
@@ -258,135 +258,11 @@ const About = () => {
 
             {/* ABOUTPAGE TESTIMONIALS */}
 
-            <section className="w3l-clients py-5" id="testimonials">
-                <div className="container py-md-5 py-4 AboutPageTestimonials">
-                    <div className="text-center mb-sm-5 mb-4">
-                        <label className="sub-title mb-2">Testimonials</label>
-                        <h3 className="title-big">
-                            What Clients Says </h3>
-                    </div>
-                    <div id="owl-demo2" className="owl-carousel owl-theme pb-5">
-
-                        <div className="item">
-                            <div className="testimonial-content">
-                                <div className="testimonial">
-                                    <FontAwesomeIcon icon={faQuoteLeft} />
-                                    <p>Neural resource provides best staff solution for bussiness.</p>
-                                </div>
-                                <div className="bottom-info mt-4">
-                                    <a className="comment-img" href="#url"><img
-                                        src={testi1} className="img-responsive"
-                                        alt="placeholder image" /></a>
-                                    <div className="people-info align-self">
-                                        <h3>
-                                            Mohit Garg </h3>
-                                        <p className="identity">
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="item">
-                            <div className="testimonial-content">
-                                <div className="testimonial">
-                                    <FontAwesomeIcon icon={faQuoteLeft} />
-                                    <p>This company made by work easier with its services, great experience.</p>
-                                </div>
-                                <div className="bottom-info mt-4">
-                                    <a className="comment-img" href="#url"><img
-                                        src={testi2} className="img-responsive"
-                                        alt="placeholder image" /></a>
-                                    <div className="people-info align-self">
-                                        <h3>
-                                            Deepak Shakya </h3>
-                                        <p className="identity">
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="item">
-                            <div className="testimonial-content">
-                                <div className="testimonial">
-                                    <FontAwesomeIcon icon={faQuoteLeft} />
-                                    <p>Made an iOS app just as I wanted. thank you Neural resource.</p>
-                                </div>
-                                <div className="bottom-info mt-4">
-                                    <a className="comment-img" href="#url"><img
-                                        src={testi3} className="img-responsive"
-                                        alt="placeholder image" /></a>
-                                    <div className="people-info align-self">
-                                        <h3>
-                                            Andrew wilson</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="item">
-                            <div className="testimonial-content">
-                                <div className="testimonial">
-                                    <FontAwesomeIcon icon={faQuoteLeft} />
-                                    <p>The envirnment of this office is the best i've experienced. they do their work perfectly
-                                        and even they enjoy what they are doin' </p>
-                                </div>
-                                <div className="bottom-info mt-4">
-                                    <a className="comment-img" href="#url"><img
-                                        src={testi1} className="img-responsive"
-                                        alt="placeholder image" /></a>
-                                    <div className="people-info align-self">
-                                        <h3>
-                                            Matthew Shephard</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div className="item">
-                            <div className="testimonial-content">
-                                <div className="testimonial">
-                                    <FontAwesomeIcon icon={faQuoteLeft} />
-                                    <p>I had training in this company and now i'am there where I wanted to be. Actually I got
-                                        job in MNC. All thanks to Neural resource.</p>
-                                </div>
-                                <div className="bottom-info mt-4">
-                                    <a className="comment-img" href="#url"><img
-                                        src={testi2} className="img-responsive"
-                                        alt="placeholder image" /></a>
-                                    <div className="people-info align-self">
-                                        <h3> Ansh gupta </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div className="item">
-                            <div className="testimonial-content">
-                                <div className="testimonial">
-                                    <FontAwesomeIcon icon={faQuoteLeft} />
-                                    <p>Though it is new oranization but they are best in place. </p>
-                                </div>
-                                <div className="bottom-info mt-4">
-                                    <a className="comment-img" href="#url">
-                                        <img src={testi3} className="img-responsive"
-                                            alt="placeholder image" /></a>
-                                    <div className="people-info align-self">
-                                        <h3>
-                                            Cooper watson. </h3>
-                                        <p className="identity">
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+            <section>
+                <Testimonilas />
             </section>
+
+
         </div>
     )
 }

@@ -19,47 +19,47 @@ const Technologies = () => {
 
 
                             <div className="col-sm-3 col-3 icon-text-style">
-                                <FontAwesomeIcon icon={faAndroid} size='3x' />
+                                <FontAwesomeIcon className="fa-icon" icon={faAndroid} size='3x' />
                                 {/* <i className="fa fa-android icon-color"></i> */}
                                 <p>Android</p>
                             </div>
 
                             <div className="col-sm-3 col-3 icon-text-style">
-                                <FontAwesomeIcon icon={faAppleAlt} size='3x' />
+                                <FontAwesomeIcon className="fa-icon" icon={faAppleAlt} size='3x' />
                                 {/* <i className="fa fa-apple icon-color"></i> */}
                                 <p>iOS</p>
                             </div>
 
                             <div className="col-sm-3 col-3 icon-text-style  border-right-0">
-                                <FontAwesomeIcon icon={faReact} size='3x' />
+                                <FontAwesomeIcon className="fa-icon" icon={faReact} size='3x' />
                                 {/* <i className="fa fa- icon-color"></i> */}
                                 <p>React JS </p>
                             </div>
 
                             <div className="col-sm-3 col-3 icon-text-style icon-text-style-2">
-                                <FontAwesomeIcon icon={faLaravel} size='3x' />
+                                <FontAwesomeIcon className="fa-icon" icon={faLaravel} size='3x' />
                                 {/* <i className="fa fa-laravel icon-color"></i> */}
                                 <p>Laravel</p>
                             </div>
 
                             <div className="col-sm-3 col-3 icon-text-style icon-text-style-2">
-                                <FontAwesomeIcon icon={faPhp} size='3x' />
+                                <FontAwesomeIcon className="fa-icon" icon={faPhp} size='3x' />
                                 {/* <i className="fa fa-php icon-color"></i> */}
                                 <p>PHP</p>
                             </div>
 
                             <div className="col-sm-3 col-3 icon-text-style icon-text-style-2 border-right-0">
-                                <FontAwesomeIcon icon={faDatabase} size='3x' />
+                                <FontAwesomeIcon className="fa-icon" icon={faDatabase} size='3x' />
                                 {/* <i className="fa fa-database icon-color"></i> */}
                                 <p>SQL</p>
                             </div>
                             <div className="col-sm-3 col-3 icon-text-style icon-text-style-2 border-right-0">
-                                <FontAwesomeIcon icon={faJs} size='3x' />
+                                <FontAwesomeIcon className="fa-icon" icon={faJs} size='3x' />
                                 {/* <i className="fa fa-js icon-color"></i> */}
                                 <p>Javascript</p>
                             </div>
                             <div className="col-sm-3 col-3 icon-text-style icon-text-style-2 border-right-0">
-                                <FontAwesomeIcon icon={faWordpress} size='3x' />
+                                <FontAwesomeIcon className="fa-icon" icon={faWordpress} size='3x' />
                                 {/* <i className="fa fa-wordpress icon-color"></i> */}
                                 <p>Wordpress</p>
                             </div>
